@@ -22,5 +22,5 @@ ok      github.com/arpitbbhayani/go-pointers-benchmark  2.398s
 ## Generating Assembly Code
 
 ```
-$ go tool compile -N -S ptr.go
+$ go tool compile -N -S -l ptr.go
 ```

@@ -19,4 +19,8 @@ PASS
 ok      github.com/arpitbbhayani/go-pointers-benchmark  2.398s
 ```
 
-![ploy](https://github.com/arpitbbhayani/go-pointers-benchmark/assets/4745789/ab8cc810-9495-421a-b3c2-b46545194cc7)
+## Generating Assembly Code
+
+```
+$ go tool compile -N -S ptr.go
+```

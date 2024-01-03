@@ -11,12 +11,12 @@ Sample output
 ```
 goos: linux
 goarch: amd64
-pkg: github.com/arpitbbhayani/go-pointers-benchmark
-cpu: AMD Ryzen 7 4800U with Radeon Graphics         
-BenchmarkPBP-16         835952650                1.437 ns/op
-BenchmarkPBV-16          1000000              1026 ns/op
+pkg: github.com/arpitbbhayani/go-playground/pass-by-pointer
+cpu: AMD Ryzen 9 7950X 16-Core Processor            
+BenchmarkPBP-32         1000000000               0.7663 ns/op
+BenchmarkPBV-32          1122776              1145 ns/op
 PASS
-ok      github.com/arpitbbhayani/go-pointers-benchmark  2.398s
+ok      github.com/arpitbbhayani/go-playground/pass-by-pointer  2.750s
 ```
 
 ## Generating Assembly Code

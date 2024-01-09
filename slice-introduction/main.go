@@ -60,4 +60,11 @@ func main() {
 	printSlice("s1", s1)
 	printArray("arr", arr)
 	printLines()
+
+	// when we update another overlapping slice
+	var s6 = arr[5:6]
+	s6[0] = 700
+	printSlice("s6", s6)
+	printArray("arr", arr)
+	printLines()
 }

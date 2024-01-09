@@ -35,7 +35,7 @@ func main() {
 	printLines()
 
 	// updating a slice, seeing the changes reflect in another slice and base array
-	s3[0] = 123
+	s3[0] = 7
 	printSlice("s3", s3)
 	printSlice("s2", s2)
 	printSlice("s1", s1)
@@ -61,10 +61,12 @@ func main() {
 	printArray("arr", arr)
 	printLines()
 
-	// when we update another overlapping slice
-	var s6 = arr[5:6]
-	s6[0] = 700
-	printSlice("s6", s6)
+	s5[0] = 71
+	printSlice("s5", s5)
+	printSlice("s4", s4)
+	printSlice("s3", s3)
+	printSlice("s2", s2)
+	printSlice("s1", s1)
 	printArray("arr", arr)
 	printLines()
 }

@@ -11,7 +11,7 @@ func printArray(name string, arr [10]int) {
 }
 
 func printSlice(name string, s []int) {
-	fmt.Printf("%s: %T %v %p %p\n", name, s, s, &s, &s[0])
+	fmt.Printf("%s: %T %v %p %p %d %d\n", name, s, s, &s, &s[0], len(s), cap(s))
 }
 
 func main() {

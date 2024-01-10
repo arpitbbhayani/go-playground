@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	// countUnsafe()
-	// countSafe()
+	countUnsafe()
+	countSafe()
 	countPassing()
 }
